@@ -1,0 +1,25 @@
+$blue: #336;
+
+html {
+  background-color: $blue;
+  color: turquoise;
+  font-size: 16px;
+}
+
+body {
+  padding: 3rem;
+}
+
+h1 {
+  margin: 1rem auto;
+  font-weight: 100;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  margin: 0.5rem auto;
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: center;
+}

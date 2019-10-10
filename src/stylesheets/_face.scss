@@ -1,0 +1,42 @@
+$face-length: 10rem;
+
+.face {
+  margin: 2rem auto;
+  border-radius: 1rem;
+  box-shadow: inset -1rem -1.5rem 1.5rem turquoise;
+  width: $face-length;
+  height: $face-length;
+
+  &.circle {
+    border-radius: 50%;
+    width: $face-length;
+  }
+
+  .eye {
+    margin: $face-length/3 0 $face-length/12 0;
+    border-radius: 50%;
+    background: rgba(64, 224, 208, 0.7);
+    width: $face-length/10;
+    height: $face-length/8;
+
+    &.left {
+      float: left;
+      margin-left: $face-length/4;
+    }
+
+    &.right {
+      float: right;
+      margin-right: $face-length/4;
+    }
+  }
+
+  .mouth {
+    clear: right;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: rgba(64, 224, 208, 0.7);
+    width: $face-length/10;
+    height: $face-length/5;
+  }
+}
