@@ -1,0 +1,15 @@
+{
+  "short_name": "Hong",
+  "name": "Self-portrait of Hong",
+  "icons": [
+    {
+      "src": "Hong.png",
+      "type": "image/png",
+      "sizes": "300x300"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
