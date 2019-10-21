@@ -1,13 +1,7 @@
-$blue: #336;
-
 html {
-  background-color: $blue;
-  color: turquoise;
+  background-color: $primary-dark;
+  color: $secondary-main;
   font-size: 16px;
-}
-
-body {
-  padding: 3rem;
 }
 
 h1 {
@@ -22,4 +16,17 @@ h2 {
   font-weight: 100;
   font-size: 2rem;
   text-align: center;
+}
+
+.header {
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.moon {
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: inset -0.5rem -0.4rem 0.4rem $secondary-light;
+  width: 5rem;
+  height: 5rem;
 }
